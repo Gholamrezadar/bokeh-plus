@@ -21,11 +21,15 @@ python3 bokeh.py img.png out.png
 
 ### Original
 
-![example1](img1.png)
+![example1](images/img1.png)
 
 ### This Method
 
 ![example2bokeh](images/out2.png)
+
+### Sampling
+
+![sampling](images/Figure1.png)
 
 # Requirements
 

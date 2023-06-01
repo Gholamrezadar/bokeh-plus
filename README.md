@@ -38,6 +38,9 @@ python3 bokeh_opencv.py images/img1.png images/kernel32.png images/out_cv_normal
 ![example2cv](images/out_cv.png)
 ![example2cv128](images/out_cv_normal_128.png)
 
+### Sampling
+![sampling](images/Figure_1.png)
+
 # Requirements
 
 - Python 3

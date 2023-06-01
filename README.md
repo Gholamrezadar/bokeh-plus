@@ -7,6 +7,8 @@ inspiration from [https://www.youtube.com/watch?v=v9x_50czf-4](https://www.youtu
 
 ```bash
 python3 bokeh.py img.png out.png
+
+python3 bokeh_opencv.py images/img1.png images/kernel32.png images/out_cv_normal_128.png
 ```
 
 ## Examples
@@ -26,6 +28,15 @@ python3 bokeh.py img.png out.png
 ### This Method
 
 ![example2bokeh](images/out2.png)
+
+### OpenCV kernel Convolution 
+
+![example2kernel](images/out_cv_normal.png)
+
+### OpenCV wow (img**4)
+
+![example2cv](images/out_cv.png)
+![example2cv128](images/out_cv_normal_128.png)
 
 # Requirements
 

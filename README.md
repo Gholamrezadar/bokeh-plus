@@ -1,5 +1,5 @@
 # Bokeh Plus
-A sample based bokeh simulator that uses inverse tonemapping and weighted (by luminance) sample averaging to produce a bokeh effect.
+A sample based bokeh simulator that uses inverse tonemapping and weighted (by luminance) sample averaging to produce a bokeh effect. Works on LDR(Low Dynamic Range) Images!
 
 inspiration from [https://www.youtube.com/watch?v=v9x_50czf-4](https://www.youtube.com/watch?v=v9x_50czf-4)
 
@@ -23,7 +23,7 @@ python3 bokeh_opencv.py images/img1.png images/kernel32.png images/out_cv_normal
 
 ### Original
 
-![example1](img1.png)
+![example1](images/img1.png)
 
 ### This Method
 

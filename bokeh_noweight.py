@@ -72,11 +72,10 @@ def customFilter(img):
                 x = int(i + offset[0])
                 y = int(j + offset[1])
                 if 0 <= x < img.shape[0] and 0 <= y < img.shape[1]:
-                    brightness = np.max(img[x,y])
-                    weighted_sample = brightness * img[x,y]
-                    total_weight += brightness 
+                    # brightness = np.max(img[x,y])
+                    total_weight += 1 
 
-                    result[i, j] += weighted_sample 
+                    result[i, j] += img[x, y] 
             result[i, j] /= total_weight
 
     return result
